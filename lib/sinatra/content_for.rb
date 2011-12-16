@@ -16,6 +16,10 @@ module Sinatra
     def content_for(key, &block)
       content_blocks[key.to_sym] << block
     end
+    
+    def content_for?(key)
+      !content_blocks[key.to_sym].blank?
+    end
 
     # Render the captured blocks for a given key. For example:
     #

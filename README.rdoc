@@ -1,3 +1,5 @@
+Don't expect anything else. Adding content_for?.
+
 = ContentFor
 
 Small extension for the Sinatra[http://sinatrarb.com] web framework
